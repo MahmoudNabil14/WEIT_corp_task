@@ -1,16 +1,9 @@
-# cats
+**Kafil Task**
 
-A new Flutter project.
+*To run this app, follow these steps:*
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Run this command: `flutter pub get`
+2. Run this command: `dart run build_runner build -d`
+3. If you are using VSCode, run the app for the first time with this command: 
+   ```bash
+   flutter run --flavor development -t lib/main_development.dart
